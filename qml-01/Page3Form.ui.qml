@@ -1,32 +1,11 @@
-import QtQuick 2.7
+﻿import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.0
+import "controls"
 
 Item {
-
-    GridLayout {
-        id: gridLayout
+    ListView_JavascriptArray {
+        id: listView_JavascriptArray
         anchors.fill: parent
-        columns: 2
-
-        Button {
-            id: button
-            text: qsTr("Button")
-        }
-
-        Button {
-            id: button1
-            text: qsTr("Button")
-        }
-
-        Button {
-            id: button2
-            text: qsTr("Button")
-        }
-
-        Button {
-            id: button3
-            text: qsTr("Button")
-        }
     }
 }

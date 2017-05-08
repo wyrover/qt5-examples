@@ -8,5 +8,20 @@
         <file>Page3Form.ui.qml</file>
         <file>Page4.qml</file>
         <file>Page4Form.ui.qml</file>
+        <file>qt.png</file>
+        <file>ImageButton.qml</file>
+        <file>qml/Ad.qml</file>
+        <file>Page2.qml</file>
+        <file>Page2Form.ui.qml</file>
+        <file>controls/ImageButton.qml</file>
+        <file>controls/ListView_JavascriptArray.qml</file>
+        <file>controls/ButtonT.qml</file>
+        <file>controls/BottomBar.qml</file>
+        <file>controls/BackButton.qml</file>
+        <file>controls/TopBar.qml</file>
+        <file>controls/ButtonTT.qml</file>
+        <file>controls/SideBar.qml</file>
+        <file>Page5.qml</file>
+        <file>Page5Form.ui.qml</file>
     </qresource>
 </RCC>

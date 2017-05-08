@@ -1,14 +1,17 @@
-import QtQuick 2.7
-import QtQuick.Controls 2.0
+﻿import QtQuick 2.7
+import QtQuick.Controls 2.1
 import QtQuick.Layouts 1.0
+
 
 ApplicationWindow {
     id: mainwindow
-    flags: Qt.FramelessWindowHint
+    flags: Qt.FramelessWindowHint |
+       Qt.WindowMinimizeButtonHint |
+       Qt.Window
     visible: true
-    width: 640
-    height: 480
-    title: qsTr("Hello World")
+    width: 1200
+    height: 800
+    title: qsTr("QML 窗体测试")
     color:Qt.rgba(0.5,0.5,0.5,0.9)
 
     MouseArea{
@@ -63,17 +66,16 @@ ApplicationWindow {
         Page1 {
         }
 
-        Page {
-            Label {
-                text: qsTr("Second page")
-                anchors.centerIn: parent
-            }
+        Page2 {            
         }
 
         Page3 {
         }
 
         Page4 {
+        }
+
+        Page5 {
         }
     }
 
@@ -92,6 +94,10 @@ ApplicationWindow {
 
         TabButton {
             text: qsTr("Page4")
+        }
+
+        TabButton {
+            text: qsTr("Page5")
         }
     }
 }
